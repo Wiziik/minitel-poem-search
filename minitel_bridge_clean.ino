@@ -19,7 +19,7 @@ void setup() {
   pinMode(19, INPUT_PULLUP);
   delay(500);
   Serial1.write(0x0C);           // clear screen
-  Serial1.print("BRIDGE OK");
+  Serial1.print("3615 TV STORE...");
 }
 
 
